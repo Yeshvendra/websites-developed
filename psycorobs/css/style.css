@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+	background-color: #000;
+  	font-family: sans-serif;
+  	font-weight: 100;
+}
+
+h1{
+  color: #fff;
+  font-weight: 100;
+  font-size: 70px;
+  margin: 40px 0px 20px;
+}
+#countdown{
+	text-align: left;
+	padding-top: 10%;
+	padding-bottom: 15%;
+	padding-left: 15%;
+	//padding-right: 47.8%;
+	background-image: url(../img/countback.jpg);
+	background-size: 100% 80%; 
+	background-repeat: no-repeat;	
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 300%;
+}
+
+#clockdiv > div{
+	//padding: 10px;
+	//background: #00BF96;
+	//background-color: rgba(248, 247, 216, 0.7);
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	//border-radius: 8px;
+	//border-color: #888888;
+	//border-style: solid;
+	//border-width: 8px;
+	//border-radius: 3px;
+	//background: #00816A;
+	display: inline-block;
+	//background-color: rgba(248, 247, 216, 0.7);
+}
+
+.smalltext{
+	//padding: 15px;
+	//border-radius: 3px;
+	//background: #707070;
+	padding-top: 5px;
+	font-size: 30%;
+}
